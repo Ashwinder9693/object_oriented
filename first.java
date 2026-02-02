@@ -30,6 +30,7 @@ public class first {
         Scanner kb = new Scanner(System.in); 
         System.out.println("choose an operation: \n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division");
         int choice = kb.nextInt();
+        kb.close();
         return choice;
        }
     
@@ -37,6 +38,7 @@ public class first {
         Scanner kb = new Scanner(System.in); 
         System.out.println("Enter number " + a + ": ");
         double num = kb.nextDouble();
+        kb.close();
         return num;
        }
 
